@@ -1,0 +1,105 @@
+body {
+    background-color: #959EFF;
+    margin: 0px;
+    
+    }
+    
+    .apresentacao {
+        background-color: #b195ff;
+        text-align: center;
+        font-size:23px; 
+        padding-top:60px;  
+        padding-left:20px;
+    }
+    
+    .wrapper {
+        display: flex;
+        width:100vw;
+    }    
+    
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:auto;
+        margin-right: 30px; 
+    
+    }
+    .posicaodascores {
+       display: flex;
+        margin:auto; 
+    }
+      
+    h2 {
+        text-align:center;
+    }
+    ul {
+        padding-left: 0;
+    }
+    .ascoresprimarias{ 
+        text-align:center;
+        list-style-position: inside;
+        font-size: 20px; 
+        padding-top: 5px;
+        list-style:none; 
+    }
+    
+    .ascoressecundarias {
+        text-align:center; 
+        list-style-position: inside;
+        list-style: none;
+        font-size: 20px; 
+        padding-top: 5px;
+    
+    }
+    .ascoresterciarias {
+        text-align:center;
+        list-style-position: inside;
+        list-style: none;
+        font-size: 20px;
+    }
+    .ascoresneutras {
+        text-align:center;
+        list-style-position: inside;
+        list-style: none;
+        font-size:20px; 
+    }
+    a {
+        text-decoration: none;
+    }
+
+    .item {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .bullet {
+        margin-right: 10px;
+        font-size: 30px;
+    
+    }
+    .bullet--red {
+        color:red;
+    }
+    .bullet--yellow {
+        color:yellow;
+    }
+    .bullet--blue {
+        color:blue; 
+    }
+    .bullet--orange {
+        color: orangered;
+    }
+    .bullet--purple {
+        color:purple; 
+    }
+    .bullet--white {
+        color:white;
+    }
+    .bullet--black {
+        color:black;
+    }
+    .bullet--gray {
+        color:gray; 
+    }
+    

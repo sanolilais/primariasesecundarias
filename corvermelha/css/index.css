@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    background-color: #2b0d0f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(26, 26, 26);
+    margin: 0;
+    align-content: center; 
+}
+
+.cordefundo {
+    background-color: #b93a41;
+}
+
+.descricaodacor {
+    margin:auto;
+    padding: 17px;
+    
+}
+.imagens {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+.imagemum {
+    display: flex;
+    width: calc(100% - 40px); 
+    padding: 20px;
+    border-bottom: solid 2px #464646;
+} 
+
+.imgBoxShadow {
+    border-radius: 10px;
+    box-shadow: -2px 5px 5px 1px rgb(29, 29, 29);
+}
+
+.imagemum img {
+    width: 300px;
+    
+}
+.imagemdois {
+    height: 403.5px;
+    padding: 20px;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.imagemdois img {
+    height: 100%;
+    float:right; 
+    width:550px
+}
+
+.texts {
+    padding-left:25px;
+    font-size:19px;   
+}
+
+.menu {
+    overflow: hidden;
+    position: sticky;
+    top:0px; 
+    width: 100%;
+    background-color: #cf666c;
+    
+}
+.menu a {
+    float: left; 
+    font-size: 18px;
+    padding:15px;
+    text-decoration: none;
+    color: black; 
+    
+}
+.menu a:hover {
+    background: violet;
+}
+
+.content {
+    width:98%; 
+    margin:0 auto; 
+}
